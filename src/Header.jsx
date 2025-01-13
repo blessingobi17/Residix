@@ -6,7 +6,11 @@ const Header = () => {
   return (
     <header className="relative w-full">
       <Navbar />
-      <img src={headerImg} alt="" className="h-headerHeight w-full" />
+      <img
+        src={headerImg}
+        alt=""
+        className="h-headerHeight w-full object-cover"
+      />
       <div
         className="headerOverlay h-headerHeight w-full absolute top-0 flex flex-col justify-center
       lg:px-20 md:px-10 px-5"
