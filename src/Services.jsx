@@ -96,7 +96,7 @@ const Services = () => {
               src={service.image}
               key={service.id}
               alt=""
-              className={`h-96 eachServices object-cover ${
+              className={`h-96 eachServices object-cover rounded-2xl ${
                 openService === service.id ? "block" : "hidden"
               }`}
             />
