@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/apartments1.png",
+    "name": "Sunset Ridge",
+    "location": "Denver, Colorado",
+    "price": "$1,700",
+    "per": "/month",
+    "rooms": "2 Bedrooms",
+    "size": "1,200 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/apartments2.png",
+    "name": "Harborview Residences",
+    "location": "Miami, Florida",
+    "price": "$3,400",
+    "per": "/month",
+    "rooms": "3 Bedrooms",
+    "size": "1,500 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/apartments3.png",
+    "name": "The Crescent",
+    "location": "Austin, Texas",
+    "price": "$1,000",
+    "per": "/month",
+    "rooms": "1 Bedroom",
+    "size": "800 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/apartments4.png",
+    "name": "Parkside Lofts",
+    "location": "Chicago, Illinois",
+    "price": "$2,500",
+    "per": "/month",
+    "rooms": "2 Bedrooms",
+    "size": "1,000 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/apartments5.png",
+    "name": "Urban Oasis",
+    "location": "New York City, New York",
+    "price": "$1.400",
+    "per": "/month",
+    "rooms": "1 Bedroom",
+    "size": "600 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/apartments6.png",
+    "name": "Mountain View Residences",
+    "location": "Boulder, Colorado",
+    "price": "$2,100",
+    "per": "/month",
+    "rooms": "2 Bedrooms",
+    "size": "1,200 FT",
+    "option": "For Rent"
+  }
+]

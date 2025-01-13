@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/services1.png",
+    "header": "Buy or Rent Properties",
+    "body": "Discover your dream home or find the perfect rental that fits your lifestyle. Browse through a wide range of properties tailored to your needs, whether you're looking to buy or rent."
+  },
+  {
+    "id": 2,
+    "image": "assets/images/services2.png",
+    "header": "Free Property Valuation",
+    "body": "Curious about the value of your property? Get a detailed and accurate assessment for free. Our valuation tools and experts help you understand your property's worth in today's market."
+  },
+  {
+    "id": 3,
+    "image": "assets/images/services3.png",
+    "header": "Dedicated Agents",
+    "body": "Our experienced agents are here to guide you every step of the way. From finding your ideal home to closing the deal, we’re dedicated to making your journey smooth and stress-free."
+  },
+  {
+    "id": 4,
+    "image": "assets/images/services4.png",
+    "header": "Exclusive Listings",
+    "body": "Gain access to premium properties not available anywhere else. Explore exclusive listings handpicked to offer the best in location, design, and amenities."
+  }
+]

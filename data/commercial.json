@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/commercial1.png",
+    "name": "Apex Tower",
+    "location": "New York City, New York",
+    "price": "$3,100,000",
+    "per": "/year",
+    "floors": "100",
+    "size": "1,250 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/commercial2.png",
+    "name": "Horizon Plaza",
+    "location": "Chicago, Illinois",
+    "price": "$2,380,000",
+    "per": "/year",
+    "floors": "72",
+    "size": "980 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/commercial3.png",
+    "name": "Summit Pointe Center",
+    "location": "San Francisco, California",
+    "price": "$2,735,100",
+    "per": "/year",
+    "floors": "65",
+    "size": "850 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/commercial4.png",
+    "name": "Paramount Corporate Tower",
+    "location": "Los Angeles, California",
+    "price": "$3,293,350",
+    "per": "/year",
+    "floors": "80",
+    "size": "1,100 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/commercial5.png",
+    "name": "Cascade Business Park",
+    "location": "Seattle, Washington",
+    "price": "$1,830,900",
+    "per": "/year",
+    "floors": "60",
+    "size": "900 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/commercial6.png",
+    "name": "Pinnacle Trade Center",
+    "location": "Dallas, Texas",
+    "price": "$1,600,100",
+    "per": "/year",
+    "floors": "55",
+    "size": "750 FT",
+    "option": "For Rent"
+  }
+]

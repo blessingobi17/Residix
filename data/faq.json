@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "header": "How do I start the home-buying process?",
+    "body": "Begin by browsing our listings to explore available properties. Once you find a property you like, you can schedule a viewing. Our agents are here to assist you through every step of the process, from financing options to closing the deal."
+  },
+  {
+    "id": 2,
+    "header": "Do I need to get pre-approved for a mortgage before I start looking at homes?",
+    "body": "While it’s not required to begin browsing homes, getting pre-approved for a mortgage can help you understand your budget and make the buying process smoother. A pre-approval letter from your lender will show sellers you're serious and ready to make an offer."
+  },
+  {
+    "id": 3,
+    "header": "What is the difference between buying a house and renting?",
+    "body": "When you buy a home, you own the property and are responsible for maintenance, property taxes, and other long-term costs. Renting, on the other hand, means you don’t own the property and pay rent to the landlord without taking on ownership responsibilities. Buying is often a long-term investment, while renting may offer more flexibility."
+  },
+  {
+    "id": 4,
+    "header": "Are there any hidden fees when buying a home?",
+    "body": "Yes, there are additional costs involved in the home-buying process, such as closing costs, home inspections, insurance, and property taxes. It’s important to budget for these extra fees to avoid surprises."
+  },
+  {
+    "id": 5,
+    "header": "How long does it typically take to buy a home?",
+    "body": "The home-buying process can take anywhere from a few weeks to a few months, depending on factors like finding the right property, securing financing, and completing inspections and paperwork. Our agents will help you move as quickly and efficiently as possible."
+  },
+  {
+    "id": 6,
+    "header": "Can I negotiate the price of a home?",
+    "body": "Yes, it is possible to negotiate the price of a home, especially if the property has been on the market for a while. Your agent will provide you with valuable market insights to help you make an informed offer and negotiate with the seller."
+  }
+]

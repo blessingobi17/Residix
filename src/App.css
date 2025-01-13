@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.headerOverlay,
+.videoOverlay {
+  background: hsla(0, 0%, 0%, 0.2);
+}
+
+.swiper-slide {
+  filter: blur(5px);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 0.5;
+  scale: 0.9;
+}
+
+.swiper-slide-active {
+  filter: none;
+  opacity: 1;
+  scale: 1;
+}
+
+.exploreOverlay {
+  background: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 0%, 0),
+    hsla(0, 0%, 0%, 0.4)
+  );
+}
+
+.rent {
+  background: hsla(0, 0%, 0%, 0.5);
+}
+
+.play {
+  background-color: hsla(0, 0%, 100%, 0.3);
+}

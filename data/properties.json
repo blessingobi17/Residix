@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/carousel1.png",
+    "name": "Willow Cottage",
+    "location": "Asheville, North Carolina",
+    "price": "$180,000",
+    "per": "/month",
+    "rooms": "2 Bedrooms",
+    "size": "950 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/carousel2.png",
+    "name": "Parkside Townhome",
+    "location": "Austin, Texas",
+    "price": "$250,000",
+    "per": "/month",
+    "rooms": "3 Bedrooms",
+    "size": "1,850 FT",
+    "option": "For Sale"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/carousel3.png",
+    "name": "Serenity Villa",
+    "location": "Malibu, California",
+    "price": "$560,000",
+    "per": "/month",
+    "rooms": "5 Bedrooms",
+    "size": "1,650 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/explore4.png",
+    "name": "Sunny Hills Estate",
+    "location": "Scottsdale, Arizona",
+    "price": "$945,000",
+    "per": "/month",
+    "rooms": "6 Bedrooms",
+    "size": "4,500 FT",
+    "option": "For Sale"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/explore5.png",
+    "name": "The Classic Manor",
+    "location": "Asheville, North Carolina",
+    "price": "$410,000",
+    "per": "/month",
+    "rooms": "4 Bedrooms",
+    "size": "2,700 FT",
+    "option": "For Rent"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/explore6.png",
+    "name": "The Green Haven",
+    "location": "Denver, Colorado",
+    "price": "$570,000",
+    "per": "/month",
+    "rooms": "5 Bedrooms",
+    "size": "4,200 FT",
+    "option": "For Rent"
+  }
+]
