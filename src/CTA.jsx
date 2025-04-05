@@ -30,21 +30,27 @@ const CTA = () => {
     );
   }, []);
   return (
-    <main className="lg:px-10 px-3 py-10">
-      <div className="relative cta">
-        <img src={cta} alt="" className="lg:h-auto h-80 w-full object-cover" />
-        <div
-          className="videoOverlay absolute h-full w-full top-0 text-white flex flex-col
-      items-center justify-center rounded-2xl lg:px-0 px-10"
-        >
-          <p className="lg:text-5xl text-2xl text-center">
-            Ready to Find Your Dream Home?
-          </p>
-          <button className="bg-white rounded-full text-black my-6 px-6 text-sm py-2 flex items-center gap-2">
-            View Listings <FaArrowRight className="h-3" />
-          </button>
+    <main className="lg:px-10 px-3 py-10 flex justify-center">
+      <section className="max-w-videoWidth">
+        <div className="relative cta">
+          <img
+            src={cta}
+            alt=""
+            className="lg:h-auto h-80 w-full object-cover"
+          />
+          <div
+            className="videoOverlay absolute h-full w-full top-0 text-white flex flex-col
+        items-center justify-center rounded-2xl lg:px-0 px-10"
+          >
+            <p className="lg:text-5xl text-2xl text-center">
+              Ready to Find Your Dream Home?
+            </p>
+            <button className="bg-white rounded-full text-black my-6 px-6 text-sm py-2 flex items-center gap-2">
+              View Listings <FaArrowRight className="h-3" />
+            </button>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 };

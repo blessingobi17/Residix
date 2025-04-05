@@ -19,6 +19,9 @@ export default {
       width: {
         semiFull: "90%",
       },
+      maxWidth: {
+        videoWidth: "1400px",
+      },
       fontSize: {
         heroText: "64px",
       },

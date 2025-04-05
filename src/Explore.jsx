@@ -95,143 +95,145 @@ const Explore = () => {
           </button>
         </div>
       </div>
-      <section>
-        {openExplore === 1 ? (
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 justify-between pt-20">
-            {residentaial.map((explore) => (
-              <div className="eachExplore relative" key={explore.id}>
-                <img src={explore.image} alt="" />
-                <div
-                  className="exploreOverlay absolute top-0 h-full w-full rounded-2xl text-white
+      <section className="flex justify-center">
+        <div className="max-w-7xl w-full">
+          {openExplore === 1 ? (
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 justify-between pt-20">
+              {residentaial.map((explore) => (
+                <div className="eachExplore relative" key={explore.id}>
+                  <img src={explore.image} alt="" />
+                  <div
+                    className="exploreOverlay absolute top-0 h-full w-full rounded-2xl text-white
+                p-4 flex flex-col justify-between"
+                  >
+                    <div className="flex justify-center">
+                      <div className="rent text-xs px-4 py-1 rounded-full">
+                        {explore.option}
+                      </div>
+                    </div>
+                    <div>
+                      <div className="flex gap-6 pb-2 font-light">
+                        <p className="text-sm flex items-center gap-1">
+                          <span>
+                            <FaBed />
+                          </span>
+                          {explore.rooms}
+                        </p>
+                        <p className="text-sm flex items-center gap-1 relative">
+                          <span>
+                            <FaRuler />
+                          </span>
+                          {explore.size}
+                          <span className="text-xs absolute -top-1 -right-2">
+                            2
+                          </span>
+                        </p>
+                      </div>
+                      <p className="text-xl font-semibold">{explore.name}</p>
+                      <div className="flex items-center font-light gap-1 pt-2">
+                        <p className="">
+                          {explore.price}
+                          <span className="pl-2 text-sm">{explore.per}</span>
+                        </p>
+                        <FaDotCircle className="h-1" />
+                        <p>{explore.location}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : openExplore === 2 ? (
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 justify-between pt-20">
+              {commercial.map((explore) => (
+                <div className="eachExplore relative" key={explore.id}>
+                  <img src={explore.image} alt="" />
+                  <div
+                    className="exploreOverlay absolute top-0 h-full w-full rounded-2xl text-white
+                p-4 flex flex-col justify-between"
+                  >
+                    <div className="flex justify-center">
+                      <div className="rent text-xs px-4 py-1 rounded-full">
+                        {explore.option}
+                      </div>
+                    </div>
+                    <div>
+                      <div className="flex gap-6 pb-2 font-light">
+                        <p className="text-sm flex items-center gap-1">
+                          <span>
+                            <FaStairs />
+                          </span>
+                          {explore.floors}
+                        </p>
+                        <p className="text-sm flex items-center gap-1 relative">
+                          <span>
+                            <FaRuler />
+                          </span>
+                          {explore.size}
+                        </p>
+                      </div>
+                      <p className="text-xl font-semibold">{explore.name}</p>
+                      <div className="flex items-center font-light gap-1 pt-2">
+                        <p className="">
+                          {explore.price}
+                          <span className="pl-2 text-sm">{explore.per}</span>
+                        </p>
+                        <FaDotCircle className="h-1" />
+                        <p>{explore.location}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 justify-between pt-20">
+              {apartments.map((explore) => (
+                <div className="eachExplore relative" key={explore.id}>
+                  <img src={explore.image} alt="" />
+                  <div
+                    className="exploreOverlay absolute top-0 h-full w-full rounded-2xl text-white
               p-4 flex flex-col justify-between"
-                >
-                  <div className="flex justify-center">
-                    <div className="rent text-xs px-4 py-1 rounded-full">
-                      {explore.option}
+                  >
+                    <div className="flex justify-center">
+                      <div className="rent text-xs px-4 py-1 rounded-full">
+                        {explore.option}
+                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <div className="flex gap-6 pb-2 font-light">
-                      <p className="text-sm flex items-center gap-1">
-                        <span>
-                          <FaBed />
-                        </span>
-                        {explore.rooms}
-                      </p>
-                      <p className="text-sm flex items-center gap-1 relative">
-                        <span>
-                          <FaRuler />
-                        </span>
-                        {explore.size}
-                        <span className="text-xs absolute -top-1 -right-2">
-                          2
-                        </span>
-                      </p>
-                    </div>
-                    <p className="text-xl font-semibold">{explore.name}</p>
-                    <div className="flex items-center font-light gap-1 pt-2">
-                      <p className="">
-                        {explore.price}
-                        <span className="pl-2 text-sm">{explore.per}</span>
-                      </p>
-                      <FaDotCircle className="h-1" />
-                      <p>{explore.location}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : openExplore === 2 ? (
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 justify-between pt-20">
-            {commercial.map((explore) => (
-              <div className="eachExplore relative" key={explore.id}>
-                <img src={explore.image} alt="" />
-                <div
-                  className="exploreOverlay absolute top-0 h-full w-full rounded-2xl text-white
-              p-4 flex flex-col justify-between"
-                >
-                  <div className="flex justify-center">
-                    <div className="rent text-xs px-4 py-1 rounded-full">
-                      {explore.option}
-                    </div>
-                  </div>
-                  <div>
-                    <div className="flex gap-6 pb-2 font-light">
-                      <p className="text-sm flex items-center gap-1">
-                        <span>
-                          <FaStairs />
-                        </span>
-                        {explore.floors}
-                      </p>
-                      <p className="text-sm flex items-center gap-1 relative">
-                        <span>
-                          <FaRuler />
-                        </span>
-                        {explore.size}
-                      </p>
-                    </div>
-                    <p className="text-xl font-semibold">{explore.name}</p>
-                    <div className="flex items-center font-light gap-1 pt-2">
-                      <p className="">
-                        {explore.price}
-                        <span className="pl-2 text-sm">{explore.per}</span>
-                      </p>
-                      <FaDotCircle className="h-1" />
-                      <p>{explore.location}</p>
+                    <div>
+                      <div className="flex gap-6 pb-2 font-light">
+                        <p className="text-sm flex items-center gap-1">
+                          <span>
+                            <FaBed />
+                          </span>
+                          {explore.rooms}
+                        </p>
+                        <p className="text-sm flex items-center gap-1 relative">
+                          <span>
+                            <FaRuler />
+                          </span>
+                          {explore.size}
+                          <span className="text-xs absolute -top-1 -right-2">
+                            2
+                          </span>
+                        </p>
+                      </div>
+                      <p className="text-xl font-semibold">{explore.name}</p>
+                      <div className="flex items-center font-light gap-1 pt-2">
+                        <p className="">
+                          {explore.price}
+                          <span className="pl-2 text-sm">{explore.per}</span>
+                        </p>
+                        <FaDotCircle className="h-1" />
+                        <p>{explore.location}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 justify-between pt-20">
-            {apartments.map((explore) => (
-              <div className="eachExplore relative" key={explore.id}>
-                <img src={explore.image} alt="" />
-                <div
-                  className="exploreOverlay absolute top-0 h-full w-full rounded-2xl text-white
-            p-4 flex flex-col justify-between"
-                >
-                  <div className="flex justify-center">
-                    <div className="rent text-xs px-4 py-1 rounded-full">
-                      {explore.option}
-                    </div>
-                  </div>
-                  <div>
-                    <div className="flex gap-6 pb-2 font-light">
-                      <p className="text-sm flex items-center gap-1">
-                        <span>
-                          <FaBed />
-                        </span>
-                        {explore.rooms}
-                      </p>
-                      <p className="text-sm flex items-center gap-1 relative">
-                        <span>
-                          <FaRuler />
-                        </span>
-                        {explore.size}
-                        <span className="text-xs absolute -top-1 -right-2">
-                          2
-                        </span>
-                      </p>
-                    </div>
-                    <p className="text-xl font-semibold">{explore.name}</p>
-                    <div className="flex items-center font-light gap-1 pt-2">
-                      <p className="">
-                        {explore.price}
-                        <span className="pl-2 text-sm">{explore.per}</span>
-                      </p>
-                      <FaDotCircle className="h-1" />
-                      <p>{explore.location}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
+              ))}
+            </div>
+          )}
+        </div>
       </section>
     </main>
   );

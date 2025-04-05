@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav
       className="bg-nav px-6 py-2 rounded-full flex absolute z-50 top-8 transform md:-translate-x-1/2
-     -translate-x-navWidth md:left-2/4 left-0 md:w-4/6 w-semiFull justify-between items-center"
+     -translate-x-navWidth md:left-2/4 left-0 md:w-4/6 max-w-3xl w-semiFull justify-between items-center"
     >
       <img src={logo} alt="" className="h-8 cursor-pointer" />
       <ul

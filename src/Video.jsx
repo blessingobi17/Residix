@@ -46,8 +46,8 @@ const Video = () => {
   }, []);
 
   return (
-    <main className="lg:px-10 md:Px-5 px-3 py-10">
-      <div className="relative w-full md:h-videoHeight h-96 video">
+    <main className="lg:px-10 md:Px-5 px-3 py-10 flex justify-center">
+      <div className="relative max-w-videoWidth w-full md:h-videoHeight h-96 video">
         <video
           ref={videoRef}
           src={video}

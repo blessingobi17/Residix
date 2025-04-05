@@ -67,40 +67,42 @@ const Services = () => {
           Why Choose Us
         </h2>
       </div>
-      <section className="flex lg:gap-0 gap-10 md:flex-row flex-col justify-between w-full">
-        <div className="md:w-2/4 w-full eachServices">
-          {servicesFile.map((service) => (
-            <div
-              className="border-b border-b-gray-300 lg:mb-10 md:mb-8 mb-6 w-full"
-              key={service.id}
-            >
-              <h3
-                className="text-xl font-medium pb-2 cursor-pointer"
-                onClick={() => handleClick(service.id)}
+      <section className="flex justify-center">
+        <div className="flex lg:gap-0 gap-10 md:flex-row flex-col justify-between max-w-7xl w-full">
+          <div className="md:w-2/4 w-full eachServices">
+            {servicesFile.map((service) => (
+              <div
+                className="border-b border-b-gray-300 lg:mb-10 md:mb-8 mb-6 w-full"
+                key={service.id}
               >
-                {service.header}
-              </h3>
-              <p
-                className={`font-light text-gray-500 leading-relaxed pb-8 ${
+                <h3
+                  className="text-xl font-medium pb-2 cursor-pointer"
+                  onClick={() => handleClick(service.id)}
+                >
+                  {service.header}
+                </h3>
+                <p
+                  className={`font-light text-gray-500 leading-relaxed pb-8 ${
+                    openService === service.id ? "block" : "hidden"
+                  }`}
+                >
+                  {service.body}
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="">
+            {servicesFile.map((service) => (
+              <img
+                src={service.image}
+                key={service.id}
+                alt=""
+                className={`h-96 eachServices object-cover rounded-2xl ${
                   openService === service.id ? "block" : "hidden"
                 }`}
-              >
-                {service.body}
-              </p>
-            </div>
-          ))}
-        </div>
-        <div className="">
-          {servicesFile.map((service) => (
-            <img
-              src={service.image}
-              key={service.id}
-              alt=""
-              className={`h-96 eachServices object-cover rounded-2xl ${
-                openService === service.id ? "block" : "hidden"
-              }`}
-            />
-          ))}
+              />
+            ))}
+          </div>
         </div>
       </section>
     </main>

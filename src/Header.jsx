@@ -12,10 +12,12 @@ const Header = () => {
         className="h-headerHeight w-full object-cover"
       />
       <div
-        className="headerOverlay h-headerHeight w-full absolute top-0 flex flex-col justify-center
-      lg:px-20 md:px-10 px-5"
+        className="headerOverlay h-headerHeight w-full absolute top-0 lg:px-20 md:px-10 px-5 
+      flex justify-center"
       >
-        <Hero />
+        <section className="max-w-7xl w-full">
+          <Hero />
+        </section>
       </div>
     </header>
   );
